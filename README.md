@@ -1,125 +1,125 @@
-# Roadmap estricto: Senior React / Full-Stack Engineer
+# Strict Roadmap: Senior React / Full-Stack Engineer
 
-**Duración:** 52 semanas  
-**Inicio sugerido:** 17 de agosto de 2026  
-**Fin:** 15 de agosto de 2027  
-**Carga mínima:** 16–20 horas por semana  
-**Objetivo:** convertirte en un Senior React Engineer capaz de explicar, diseñar, implementar, medir, probar, desplegar y defender técnicamente sistemas frontend/full-stack en producción.
+**Duration:** 52 weeks  
+**Suggested start:** August 17, 2026  
+**End:** August 15, 2027  
+**Minimum workload:** 16–20 hours per week  
+**Goal:** become a Senior React Engineer capable of explaining, designing, implementing, measuring, testing, deploying, and technically defending frontend/full-stack systems in production.
 
-> Regla principal: **no avanzas por haber “visto” un tema. Avanzas cuando puedes construirlo, probarlo, explicarlo y defender decisiones sin depender de IA.**
+> Core rule: **you do not advance because you have “seen” a topic. You advance when you can build it, test it, explain it, and defend your decisions without depending on AI.**
 
 ---
 
-## 0. Reglas del programa
+## 0. Program Rules
 
-### Regla 1 — IA en modo mentor, no piloto automático
+### Rule 1 — AI as a mentor, not autopilot
 
-Puedes usar ChatGPT/Codex/Claude para:
+You may use ChatGPT/Codex/Claude to:
 
-- revisar tu razonamiento;
-- hacer code review después de que tú implementes;
-- generar preguntas de entrevista;
-- detectar edge cases;
-- comparar alternativas arquitectónicas;
-- explicarte un concepto después de que tú hayas intentado entenderlo.
+- review your reasoning;
+- perform code review after you implement;
+- generate interview questions;
+- identify edge cases;
+- compare architectural alternatives;
+- explain a concept after you have first tried to understand it yourself.
 
-No puedes usar IA para:
+You may not use AI to:
 
-- escribir por completo la solución inicial;
-- resolver el challenge semanal antes de que lo intentes;
-- generar los tests sin que tú hayas definido primero los casos;
-- contestar el examen semanal por ti.
+- write the entire initial solution;
+- solve the weekly challenge before you attempt it;
+- generate tests before you have defined the test cases yourself;
+- answer the weekly exam for you.
 
-### Regla 2 — TDD + SDD
+### Rule 2 — TDD + SDD
 
-Para cada feature importante:
+For every important feature:
 
-1. escribe una especificación corta;
-2. define criterios de aceptación;
-3. define API/contracts;
-4. escribe tests;
-5. implementa;
-6. mide;
-7. documenta decisiones.
+1. write a short specification;
+2. define acceptance criteria;
+3. define APIs/contracts;
+4. write tests;
+5. implement;
+6. measure;
+7. document decisions.
 
-### Regla 3 — Definition of Done semanal
+### Rule 3 — Weekly Definition of Done
 
-Una semana se considera aprobada solamente si puedes:
+A week is considered passed only if you can:
 
-- [ ] explicar el tema sin leer notas;
-- [ ] implementar un ejemplo desde cero;
-- [ ] escribir tests relevantes;
-- [ ] detectar al menos 3 errores comunes del tema;
-- [ ] justificar trade-offs;
-- [ ] resolver el challenge de la semana;
-- [ ] escribir un `WEEK-XX-RETROSPECTIVE.md` de máximo 500 palabras.
+- [ ] explain the topic without reading notes;
+- [ ] implement an example from scratch;
+- [ ] write relevant tests;
+- [ ] identify at least 3 common mistakes related to the topic;
+- [ ] justify trade-offs;
+- [ ] solve the weekly challenge;
+- [ ] write a `WEEK-XX-RETROSPECTIVE.md` of no more than 500 words.
 
-### Regla 4 — Score mínimo
+### Rule 4 — Minimum score
 
-Cada domingo te calificas:
+Every Sunday, score yourself:
 
-| Área | Peso |
+| Area | Weight |
 |---|---:|
-| Conceptos | 25% |
-| Implementación | 25% |
+| Concepts | 25% |
+| Implementation | 25% |
 | Testing | 15% |
 | Debugging | 15% |
-| Arquitectura / trade-offs | 15% |
-| Comunicación técnica | 5% |
+| Architecture / trade-offs | 15% |
+| Technical communication | 5% |
 
-**Mínimo para avanzar: 80/100.**  
-Si obtienes menos de 80, repites los puntos débiles antes de iniciar la siguiente semana.
+**Minimum score to advance: 80/100.**  
+If you score below 80, repeat the weak areas before starting the next week.
 
 ---
 
-# Horario semanal obligatorio
+# Mandatory Weekly Schedule
 
-## Lunes — Fundamentos profundos — 2.5 h
+## Monday — Deep Fundamentals — 2.5 h
 
-- 60 min teoría/documentación.
-- 60 min implementación sin copiar.
-- 30 min notas/Feynman.
+- 60 min theory/documentation.
+- 60 min implementation without copying.
+- 30 min notes/Feynman technique.
 
-## Martes — Coding — 3 h
+## Tuesday — Coding — 3 h
 
-- implementar el concepto de la semana;
-- cero tutorial-copying;
-- escribir pequeños benchmarks cuando aplique.
+- implement the concept of the week;
+- zero tutorial copying;
+- write small benchmarks when applicable.
 
-## Miércoles — Testing + debugging — 2.5 h
+## Wednesday — Testing + Debugging — 2.5 h
 
 - unit tests;
 - integration tests;
-- debugging con DevTools;
-- reproducir errores deliberadamente.
+- debug with DevTools;
+- reproduce errors deliberately.
 
-## Jueves — Arquitectura — 2.5 h
+## Thursday — Architecture — 2.5 h
 
 - patterns;
 - trade-offs;
-- ADR de una decisión;
+- write an ADR for one decision;
 - refactor.
 
-## Viernes — Interview mode — 2 h
+## Friday — Interview Mode — 2 h
 
 - 30 min JavaScript/TypeScript;
 - 30 min React;
 - 30 min frontend/system design;
-- 30 min explicar código en voz alta.
+- 30 min explaining code out loud.
 
-## Sábado — Proyecto — 4–6 h
+## Saturday — Project — 4–6 h
 
-Construcción del proyecto acumulativo.
+Build the cumulative project.
 
-## Domingo — Examen — 1.5–2 h
+## Sunday — Exam — 1.5–2 h
 
-- examen sin IA;
+- exam without AI;
 - retrospective;
-- actualizar knowledge gaps.
+- update knowledge gaps.
 
 ---
 
-# Recursos base que usarás durante todo el año
+# Core Resources You Will Use Throughout the Year
 
 ## React
 
@@ -239,53 +239,53 @@ Construcción del proyecto acumulativo.
 
 ---
 
-# Proyecto anual obligatorio
+# Mandatory Year-Long Project
 
-Construirás una aplicación llamada **Atlas**.
+You will build an application called **Atlas**.
 
-No será un TODO app.
+It will not be a TODO app.
 
-Debe terminar siendo un SaaS multi-tenant con:
+It must end up as a multi-tenant SaaS with:
 
 - React + TypeScript;
 - React Router o Next.js;
 - design system;
-- autenticación;
+- authentication;
 - RBAC;
-- formularios complejos;
+- complex forms;
 - optimistic updates;
 - realtime;
 - PostgreSQL;
-- backend Express 5 como backend principal;
-- una parte secundaria implementada con FastAPI para comparar ecosistemas;
+- Express 5 as the primary backend;
+- a secondary module implemented with FastAPI to compare ecosystems;
 - Redis;
 - background jobs;
 - WebSockets/SSE;
-- observabilidad;
+- observability;
 - Docker;
 - CI/CD;
-- tests unitarios/integración/E2E;
+- unit/integration/E2E tests;
 - rate limiting;
 - caching;
-- auditoría;
-- métricas;
+- auditing;
+- metrics;
 - feature flags;
-- manejo de errores;
-- accesibilidad;
+- error handling;
+- accessibility;
 - performance budgets.
 
-Cada fase del calendario agrega capacidades a Atlas.
+Each phase of the calendar adds capabilities to Atlas.
 
 ---
 
-# FASE 1 — JavaScript de verdad
+# PHASE 1 — Real JavaScript
 
-## Semana 1 — 17–23 ago 2026
+## Week 1 — 17–23 Aug 2026
 
-### Tema
+### Topic
 Execution model de JavaScript.
 
-### Debes dominar
+### You Must Master
 
 - execution contexts;
 - call stack;
@@ -298,11 +298,11 @@ Execution model de JavaScript.
 - prototypes;
 - property descriptors.
 
-### Video obligatorio
+### Required Video
 https://www.youtube.com/watch?v=8aGhZQkoFbQ
 
 ### Challenge
-Implementar desde cero:
+Implement from scratch:
 
 - `once()`;
 - `memoize()`;
@@ -310,17 +310,17 @@ Implementar desde cero:
 - `throttle()`;
 - event emitter.
 
-### Examen
-Explica por qué una closure puede mantener memoria viva después de terminar la función exterior.
+### Exam
+Explain why a closure can keep memory alive after the outer function has finished executing.
 
 ---
 
-## Semana 2 — 24–30 ago
+## Week 2 — 24–30 Aug
 
-### Tema
+### Topic
 Async JavaScript.
 
-### Debes dominar
+### You Must Master
 
 - event loop;
 - macrotasks;
@@ -338,9 +338,9 @@ Async JavaScript.
 - https://www.youtube.com/watch?v=JjI-3Rxt_5w
 
 ### Challenge
-Construye un task scheduler con:
+Build a task scheduler with:
 
-- máximo N tareas concurrentes;
+- at most N concurrent tasks;
 - cancellation;
 - retry;
 - exponential backoff;
@@ -348,12 +348,12 @@ Construye un task scheduler con:
 
 ---
 
-## Semana 3 — 31 ago–6 sep
+## Week 3 — 31 Aug–6 Sep
 
-### Tema
+### Topic
 Data structures + immutability.
 
-### Dominar
+### Master
 
 - Map/Set/WeakMap/WeakSet;
 - structural sharing;
@@ -364,16 +364,16 @@ Data structures + immutability.
 - complexity Big-O.
 
 ### Challenge
-Implementar un pequeño immutable state store sin Zustand/Redux.
+Implement a small immutable state store without Zustand/Redux.
 
 ---
 
-## Semana 4 — 7–13 sep
+## Week 4 — 7–13 Sep
 
-### Tema
+### Topic
 TypeScript avanzado I.
 
-### Dominar
+### Master
 
 - generics;
 - constraints;
@@ -390,21 +390,21 @@ TypeScript avanzado I.
 https://www.youtube.com/watch?v=p6dO9u0M7MQ
 
 ### Challenge
-Diseñar una API client completamente type-safe sin `any`.
+Design a fully type-safe API client without `any`.
 
 ### Gate 1
-Crear una librería TS con tests y public API documentada.
+Create a TypeScript library with tests and a documented public API.
 
 ---
 
-# FASE 2 — Browser engineer
+# PHASE 2 — Browser Engineering
 
-## Semana 5 — 14–20 sep
+## Week 5 — 14–20 Sep
 
-### Tema
+### Topic
 Rendering pipeline.
 
-### Dominar
+### Master
 
 - DOM;
 - CSSOM;
@@ -420,23 +420,23 @@ Rendering pipeline.
 https://www.youtube.com/watch?v=3_5DKEx72qk
 
 ### Challenge
-Crear una página deliberadamente lenta, perfilarla y corregirla.
+Create a deliberately slow page, profile it, and fix it.
 
 ---
 
-## Semana 6 — 21–27 sep
+## Week 6 — 21–27 Sep
 
-### Tema
-Networking para frontend.
+### Topic
+Networking for frontend engineers.
 
-### Dominar
+### Master
 
 - DNS;
 - TCP;
 - TLS;
 - HTTP/1.1;
 - HTTP/2;
-- HTTP/3 conceptualmente;
+- HTTP/3 conceptually;
 - caching headers;
 - ETag;
 - cookies;
@@ -445,16 +445,16 @@ Networking para frontend.
 - CDN.
 
 ### Challenge
-Explicar desde que escribes una URL hasta que React pinta la primera pantalla.
+Explain everything that happens from typing a URL until React paints the first screen.
 
 ---
 
-## Semana 7 — 28 sep–4 oct
+## Week 7 — 28 Sep–4 Oct
 
-### Tema
+### Topic
 Web performance.
 
-### Dominar
+### Master
 
 - LCP;
 - CLS;
@@ -471,41 +471,41 @@ Web performance.
 https://www.youtube.com/watch?v=qPto6cNPdzU
 
 ### Challenge
-Lograr Lighthouse >= 95 en performance y accessibility en Atlas landing.
+Achieve Lighthouse >= 95 for performance and accessibility on the Atlas landing page.
 
 ---
 
-## Semana 8 — 5–11 oct
+## Week 8 — 5–11 Oct
 
-### Tema
+### Topic
 Accessibility.
 
-### Dominar
+### Master
 
 - semantic HTML;
 - keyboard navigation;
 - focus management;
 - ARIA;
-- forms accesibles;
+- accessible forms;
 - screen-reader mental model;
 - WCAG basics.
 
 ### Challenge
-Navegar Atlas completamente sin mouse.
+Navigate Atlas completely without a mouse.
 
 ### Gate 2
-Performance + accessibility audit escrito.
+Written performance + accessibility audit.
 
 ---
 
-# FASE 3 — React internals
+# PHASE 3 — React Internals
 
-## Semana 9 — 12–18 oct
+## Week 9 — 12–18 Oct
 
-### Tema
+### Topic
 React mental model.
 
-### Dominar
+### Master
 
 - render vs commit;
 - reconciliation;
@@ -515,20 +515,20 @@ React mental model.
 - purity;
 - snapshots.
 
-### Recurso
+### Resource
 https://react.dev/learn
 
 ### Challenge
-Explicar 10 bugs relacionados con keys/state preservation.
+Explain 10 bugs related to keys/state preservation.
 
 ---
 
-## Semana 10 — 19–25 oct
+## Week 10 — 19–25 Oct
 
-### Tema
+### Topic
 Hooks internals.
 
-### Dominar
+### Master
 
 - hook ordering;
 - closures;
@@ -543,7 +543,7 @@ Hooks internals.
 https://www.youtube.com/watch?v=godEUAAeGTo
 
 ### Challenge
-Implementar:
+Implement:
 
 - `usePrevious`;
 - `useDebounce`;
@@ -554,14 +554,14 @@ Implementar:
 
 ---
 
-## Semana 11 — 26 oct–1 nov
+## Week 11 — 26 Oct–1 Nov
 
-### Tema
-`useEffect` sin supersticiones.
+### Topic
+`useEffect` without superstition.
 
-### Dominar
+### Master
 
-- cuándo NO usar effects;
+- when NOT to use effects;
 - synchronization;
 - derived state;
 - external systems;
@@ -569,16 +569,16 @@ Implementar:
 - cancellation.
 
 ### Challenge
-Tomar 5 effects reales y eliminar al menos 2 mediante mejor modelado.
+Take 5 real effects and eliminate at least 2 through better modeling.
 
 ---
 
-## Semana 12 — 2–8 nov
+## Week 12 — 2–8 Nov
 
-### Tema
+### Topic
 React Fiber / scheduling conceptual.
 
-### Dominar
+### Master
 
 - Fiber mental model;
 - cooperative scheduling;
@@ -588,16 +588,16 @@ React Fiber / scheduling conceptual.
 - transitions.
 
 ### Challenge
-Explicar por qué concurrent rendering no significa multithreading.
+Explain why concurrent rendering does not mean multithreading.
 
 ---
 
-## Semana 13 — 9–15 nov
+## Week 13 — 9–15 Nov
 
-### Tema
+### Topic
 React 19 Actions.
 
-### Dominar
+### Master
 
 - Actions;
 - `useTransition`;
@@ -606,20 +606,20 @@ React 19 Actions.
 - pending/error flows;
 - optimistic UI.
 
-### Recurso
+### Resource
 https://react.dev/blog/2024/12/05/react-19
 
 ### Challenge
-Formulario completo con optimistic update y rollback.
+Build a complete form with optimistic updates and rollback.
 
 ---
 
-## Semana 14 — 16–22 nov
+## Week 14 — 16–22 Nov
 
-### Tema
+### Topic
 React Compiler y memoization.
 
-### Dominar
+### Master
 
 - React Compiler;
 - referential equality;
@@ -627,26 +627,26 @@ React Compiler y memoization.
 - `memo`;
 - `useMemo`;
 - `useCallback`;
-- cuándo eliminarlos.
+- when to remove them.
 
-### Recursos
+### Resources
 
 - https://react.dev/learn/react-compiler
 - https://www.youtube.com/watch?v=Qwb-Za6cBws
 
 ### Gate 3
-Debes perfilar una pantalla compleja antes y después y justificar cada optimización.
+You must profile a complex screen before and after, and justify every optimization.
 
 ---
 
-# FASE 4 — Arquitectura React
+# PHASE 4 — React Architecture
 
-## Semana 15 — 23–29 nov
+## Week 15 — 23–29 Nov
 
-### Tema
+### Topic
 Component API design.
 
-### Dominar
+### Master
 
 - composition;
 - inversion of control;
@@ -660,12 +660,12 @@ https://www.youtube.com/watch?v=N_WgBU3S9W8
 
 ---
 
-## Semana 16 — 30 nov–6 dic
+## Week 16 — 30 Nov–6 Dec
 
-### Tema
+### Topic
 Feature architecture.
 
-### Dominar
+### Master
 
 - feature-first;
 - boundaries;
@@ -676,16 +676,16 @@ Feature architecture.
 - coupling/cohesion.
 
 ### Challenge
-Refactor Atlas para que ningún feature importe internals de otro.
+Refactor Atlas so that no feature imports another feature’s internals.
 
 ---
 
-## Semana 17 — 7–13 dic
+## Week 17 — 7–13 Dec
 
-### Tema
+### Topic
 State management.
 
-### Comparar
+### Compare
 
 - local state;
 - Context;
@@ -695,16 +695,16 @@ State management.
 - server state.
 
 ### Challenge
-Escribir un ADR justificando por qué cada tipo de estado vive donde vive.
+Write an ADR justifying why each type of state lives where it does.
 
 ---
 
-## Semana 18 — 14–20 dic
+## Week 18 — 14–20 Dec
 
-### Tema
+### Topic
 TanStack Query / server state.
 
-### Dominar
+### Master
 
 - query keys;
 - caching;
@@ -719,12 +719,12 @@ https://www.youtube.com/watch?v=9Vuz4BbPkXc
 
 ---
 
-## Semana 19 — 21–27 dic
+## Week 19 — 21–27 Dec
 
-### Tema
+### Topic
 Forms.
 
-### Dominar
+### Master
 
 - React Hook Form;
 - schema validation;
@@ -736,16 +736,16 @@ Forms.
 - server errors.
 
 ### Challenge
-Crear onboarding multi-step complejo con rollback y draft persistence.
+Create a complex multi-step onboarding flow with rollback and draft persistence.
 
 ---
 
-## Semana 20 — 28 dic–3 ene 2027
+## Week 20 — 28 Dec–3 Jan 2027
 
-### Tema
+### Topic
 Design systems.
 
-### Dominar
+### Master
 
 - tokens;
 - primitives;
@@ -756,18 +756,18 @@ Design systems.
 - visual regression.
 
 ### Gate 4
-Publicar un mini design system usado por Atlas.
+Publish a small design system used by Atlas.
 
 ---
 
-# FASE 5 — Testing como Senior
+# PHASE 5 — Testing Like a Senior
 
-## Semana 21 — 4–10 ene
+## Week 21 — 4–10 Jan
 
-### Tema
+### Topic
 Testing philosophy.
 
-### Dominar
+### Master
 
 - test pyramid;
 - testing trophy;
@@ -777,12 +777,12 @@ Testing philosophy.
 
 ---
 
-## Semana 22 — 11–17 ene
+## Week 22 — 11–17 Jan
 
-### Tema
+### Topic
 Unit + component testing.
 
-### Dominar
+### Master
 
 - Vitest/Jest;
 - RTL;
@@ -792,29 +792,29 @@ Unit + component testing.
 - MSW.
 
 ### Challenge
-80%+ cobertura útil en un feature crítico, sin perseguir cobertura artificial.
+Achieve 80%+ meaningful coverage in a critical feature without chasing artificial coverage.
 
 ---
 
-## Semana 23 — 18–24 ene
+## Week 23 — 18–24 Jan
 
-### Tema
+### Topic
 Integration testing.
 
 ### Challenge
-Frontend + mocked HTTP realisticamente con MSW, errores 4xx/5xx, latency y retries.
+Build frontend + realistically mocked HTTP with MSW, including 4xx/5xx errors, latency, and retries.
 
 ---
 
-## Semana 24 — 25–31 ene
+## Week 24 — 25–31 Jan
 
-### Tema
+### Topic
 Playwright.
 
 ### Video
 https://www.youtube.com/watch?v=tNBvlIXlDFI
 
-### Dominar
+### Master
 
 - fixtures;
 - locators;
@@ -827,33 +827,33 @@ https://www.youtube.com/watch?v=tNBvlIXlDFI
 
 ---
 
-## Semana 25 — 1–7 feb
+## Week 25 — 1–7 Feb
 
-### Tema
+### Topic
 Flaky test hunting.
 
 ### Video
 https://www.youtube.com/watch?v=YfRazDhi9Fw
 
 ### Challenge
-Introducir 5 condiciones de carrera en E2E y corregirlas sin `waitForTimeout`.
+Introduce 5 race conditions in E2E tests and fix them without `waitForTimeout`.
 
 ### Gate 5
-CI debe ejecutar lint + typecheck + unit + integration + E2E.
+CI must run lint + typecheck + unit + integration + E2E.
 
 ---
 
-# FASE 6 — Performance de producción
+# PHASE 6 — Production Performance
 
-## Semana 26 — 8–14 feb
+## Week 26 — 8–14 Feb
 
-### Tema
+### Topic
 Profiling React.
 
 ### Video
 https://www.youtube.com/watch?v=5nSsnXZTdDs
 
-### Dominar
+### Master
 
 - React Profiler;
 - flamegraphs;
@@ -863,12 +863,12 @@ https://www.youtube.com/watch?v=5nSsnXZTdDs
 
 ---
 
-## Semana 27 — 15–21 feb
+## Week 27 — 15–21 Feb
 
-### Tema
+### Topic
 Bundle architecture.
 
-### Dominar
+### Master
 
 - tree shaking;
 - ESM;
@@ -878,16 +878,16 @@ Bundle architecture.
 - bundle analyzer.
 
 ### Challenge
-Reducir bundle inicial de una pantalla al menos 25% respecto al baseline creado esa semana.
+Reduce the initial bundle of one screen by at least 25% compared with the baseline created that week.
 
 ---
 
-## Semana 28 — 22–28 feb
+## Week 28 — 22–28 Feb
 
-### Tema
+### Topic
 Network + data performance.
 
-### Dominar
+### Master
 
 - waterfalls;
 - request dedupe;
@@ -898,12 +898,12 @@ Network + data performance.
 
 ---
 
-## Semana 29 — 1–7 mar
+## Week 29 — 1–7 Mar
 
-### Tema
+### Topic
 Memory leaks.
 
-### Dominar
+### Master
 
 - detached DOM nodes;
 - listeners;
@@ -913,15 +913,15 @@ Memory leaks.
 - heap snapshots.
 
 ### Gate 6
-Crear un performance report con métricas antes/después.
+Create a performance report with before/after metrics.
 
 ---
 
-# FASE 7 — Next.js / React framework knowledge
+# PHASE 7 — Next.js / React Framework Knowledge
 
-## Semana 30 — 8–14 mar
+## Week 30 — 8–14 Mar
 
-### Tema
+### Topic
 Next.js App Router.
 
 ### Docs
@@ -930,7 +930,7 @@ https://nextjs.org/docs/app
 ### Video
 https://www.youtube.com/watch?v=I1V9YWqRIeI
 
-### Dominar
+### Master
 
 - layouts;
 - routing;
@@ -939,12 +939,12 @@ https://www.youtube.com/watch?v=I1V9YWqRIeI
 
 ---
 
-## Semana 31 — 15–21 mar
+## Week 31 — 15–21 Mar
 
-### Tema
+### Topic
 Rendering strategies.
 
-### Dominar
+### Master
 
 - CSR;
 - SSR;
@@ -955,16 +955,16 @@ Rendering strategies.
 - partial rendering mental models.
 
 ### Challenge
-Explicar cuál estrategia escogerías para 6 tipos distintos de páginas.
+Explain which rendering strategy you would choose for 6 different types of pages.
 
 ---
 
-## Semana 32 — 22–28 mar
+## Week 32 — 22–28 Mar
 
-### Tema
+### Topic
 Server Components.
 
-### Dominar
+### Master
 
 - boundaries;
 - serialization;
@@ -975,12 +975,12 @@ Server Components.
 
 ---
 
-## Semana 33 — 29 mar–4 abr
+## Week 33 — 29 Mar–4 Apr
 
-### Tema
+### Topic
 Production Next.js.
 
-### Dominar
+### Master
 
 - caching;
 - metadata;
@@ -990,18 +990,18 @@ Production Next.js.
 - deployment.
 
 ### Gate 7
-Crear una versión de una sección de Atlas usando Next.js y comparar arquitectura con SPA.
+Create a version of one Atlas section using Next.js and compare its architecture with the SPA.
 
 ---
 
-# FASE 8 — Backend principal: Node.js + Express 5
+# PHASE 8 — Primary Backend: Node.js + Express 5
 
-## Semana 34 — 5–11 abr
+## Week 34 — 5–11 Apr
 
-### Tema
+### Topic
 Node internals.
 
-### Dominar
+### Master
 
 - event loop Node;
 - libuv conceptual;
@@ -1012,13 +1012,13 @@ Node internals.
 - backpressure.
 
 ### Challenge
-Procesar un archivo grande con streams sin cargarlo completo en memoria.
+Process a large file with streams without loading the entire file into memory.
 
 ---
 
-## Semana 35 — 12–18 abr
+## Week 35 — 12–18 Apr
 
-### Tema
+### Topic
 Express 5 architecture.
 
 ### Docs
@@ -1027,7 +1027,7 @@ https://expressjs.com/en/5x/api/
 ### Video
 https://www.youtube.com/watch?v=fBzm9zja2Y8
 
-### Dominar
+### Master
 
 - middleware;
 - routers;
@@ -1038,12 +1038,12 @@ https://www.youtube.com/watch?v=fBzm9zja2Y8
 
 ---
 
-## Semana 36 — 19–25 abr
+## Week 36 — 19–25 Apr
 
-### Tema
+### Topic
 API design.
 
-### Dominar
+### Master
 
 - REST semantics;
 - idempotency;
@@ -1055,40 +1055,40 @@ API design.
 - rate limits.
 
 ### Challenge
-Diseñar API pública documentada de Atlas.
+Design a documented public API for Atlas.
 
 ---
 
-## Semana 37 — 26 abr–2 may
+## Week 37 — 26 Apr–2 May
 
-### Tema
+### Topic
 Authentication / Authorization.
 
 ### Video
 https://www.youtube.com/watch?v=3I74AIWthIM
 
-### Dominar
+### Master
 
 - sessions;
 - JWT;
 - refresh tokens;
 - cookies;
 - RBAC;
-- ABAC conceptualmente;
+- ABAC conceptually;
 - OAuth2;
 - OIDC.
 
 ---
 
-## Semana 38 — 3–9 may
+## Week 38 — 3–9 May
 
-### Tema
+### Topic
 Security backend.
 
 ### Docs
 https://expressjs.com/en/advanced/best-practice-security/
 
-### Dominar
+### Master
 
 - validation;
 - sanitization;
@@ -1103,12 +1103,12 @@ https://expressjs.com/en/advanced/best-practice-security/
 
 ---
 
-## Semana 39 — 10–16 may
+## Week 39 — 10–16 May
 
-### Tema
+### Topic
 Background jobs + realtime.
 
-### Dominar
+### Master
 
 - queues;
 - retries;
@@ -1118,15 +1118,15 @@ Background jobs + realtime.
 - event-driven patterns.
 
 ### Gate 8
-Atlas backend debe tener auth, RBAC, realtime y background processing.
+The Atlas backend must have authentication, RBAC, realtime capabilities, and background processing.
 
 ---
 
-# FASE 9 — FastAPI como segundo backend
+# PHASE 9 — FastAPI as a Secondary Backend
 
-## Semana 40 — 17–23 may
+## Week 40 — 17–23 May
 
-### Tema
+### Topic
 FastAPI architecture.
 
 ### Docs
@@ -1136,19 +1136,19 @@ https://fastapi.tiangolo.com/tutorial/
 https://www.youtube.com/watch?v=VirndPTeRaw
 
 ### Challenge
-Reimplementar un módulo del backend de Atlas en FastAPI.
+Reimplement one Atlas backend module in FastAPI.
 
 ---
 
-## Semana 41 — 24–30 may
+## Week 41 — 24–30 May
 
-### Tema
+### Topic
 Python async + dependency injection.
 
 ### Docs
 https://fastapi.tiangolo.com/async/
 
-### Dominar
+### Master
 
 - async/await Python;
 - event loop mental model;
@@ -1158,15 +1158,15 @@ https://fastapi.tiangolo.com/async/
 
 ---
 
-## Semana 42 — 31 may–6 jun
+## Week 42 — 31 May–6 Jun
 
-### Tema
+### Topic
 FastAPI production.
 
 ### Video
 https://www.youtube.com/watch?v=TO4aQ3ghFOc
 
-### Dominar
+### Master
 
 - auth;
 - async DB;
@@ -1178,17 +1178,17 @@ https://www.youtube.com/watch?v=TO4aQ3ghFOc
 
 ---
 
-## Semana 43 — 7–13 jun
+## Week 43 — 7–13 Jun
 
-### Tema
+### Topic
 Express vs FastAPI.
 
 ### Challenge
-Escribir un ADR de mínimo 1500 palabras:
+Write an ADR of at least 1,500 words:
 
 `Why Atlas backend should use Express / FastAPI`
 
-Debes comparar:
+You must compare:
 
 - ecosystem;
 - concurrency;
@@ -1202,21 +1202,21 @@ Debes comparar:
 - maintainability.
 
 ### Gate 9
-Defender la decisión oralmente en 15 minutos.
+Defend the decision orally in 15 minutes.
 
 ---
 
-# FASE 10 — Datos y sistemas distribuidos
+# PHASE 10 — Data and Distributed Systems
 
-## Semana 44 — 14–20 jun
+## Week 44 — 14–20 Jun
 
-### Tema
-PostgreSQL profundo.
+### Topic
+Deep PostgreSQL.
 
 ### Video
 https://www.youtube.com/watch?v=pPqazMTzNOM
 
-### Dominar
+### Master
 
 - normalization;
 - indexes;
@@ -1229,31 +1229,31 @@ https://www.youtube.com/watch?v=pPqazMTzNOM
 
 ---
 
-## Semana 45 — 21–27 jun
+## Week 45 — 21–27 Jun
 
-### Tema
+### Topic
 Caching / Redis.
 
 ### Video
 https://www.youtube.com/watch?v=fmT5nlEkl3U
 
-### Dominar
+### Master
 
 - cache-aside;
 - TTL;
 - invalidation;
-- distributed locks conceptual;
+- distributed locks conceptually;
 - pub/sub;
 - rate limiting.
 
 ### Challenge
-Implementar caching con métricas hit/miss.
+Implement caching with hit/miss metrics.
 
 ---
 
-## Semana 46 — 28 jun–4 jul
+## Week 46 — 28 Jun–4 Jul
 
-### Tema
+### Topic
 Queues / event-driven architecture.
 
 ### Videos
@@ -1261,7 +1261,7 @@ Queues / event-driven architecture.
 - https://www.youtube.com/watch?v=4090Y2im_bg
 - https://www.youtube.com/watch?v=JFPN-GwON9U
 
-### Dominar
+### Master
 
 - at-most-once;
 - at-least-once;
@@ -1272,21 +1272,21 @@ Queues / event-driven architecture.
 - DLQ.
 
 ### Gate 10
-Diseñar un sistema de notifications desacoplado.
+Design a decoupled notification system.
 
 ---
 
-# FASE 11 — DevOps + Security + Observability
+# PHASE 11 — DevOps + Security + Observability
 
-## Semana 47 — 5–11 jul
+## Week 47 — 5–11 Jul
 
-### Tema
+### Topic
 Docker.
 
 ### Video
 https://www.youtube.com/watch?v=Wf2eSG3owoA
 
-### Dominar
+### Master
 
 - images;
 - layers;
@@ -1298,15 +1298,15 @@ https://www.youtube.com/watch?v=Wf2eSG3owoA
 
 ---
 
-## Semana 48 — 12–18 jul
+## Week 48 — 12–18 Jul
 
-### Tema
+### Topic
 Kubernetes.
 
 ### Video
 https://www.youtube.com/watch?v=EV47Oxwet6Y
 
-### Dominar
+### Master
 
 - pods;
 - deployments;
@@ -1315,16 +1315,16 @@ https://www.youtube.com/watch?v=EV47Oxwet6Y
 - configmaps;
 - secrets;
 - probes;
-- autoscaling conceptual.
+- autoscaling conceptually.
 
 ---
 
-## Semana 49 — 19–25 jul
+## Week 49 — 19–25 Jul
 
-### Tema
+### Topic
 CI/CD + observability.
 
-### Dominar
+### Master
 
 - GitHub Actions;
 - build/test/deploy pipelines;
@@ -1336,15 +1336,15 @@ CI/CD + observability.
 - alerting.
 
 ### Gate 11
-Atlas desplegado automáticamente desde main con rollback strategy documentada.
+Atlas must be automatically deployed from `main` with a documented rollback strategy.
 
 ---
 
-# FASE 12 — Senior / Staff mindset
+# PHASE 12 — Senior / Staff Mindset
 
-## Semana 50 — 26 jul–1 ago
+## Week 50 — 26 Jul–1 Aug
 
-### Tema
+### Topic
 Frontend System Design.
 
 ### Videos
@@ -1352,17 +1352,17 @@ Frontend System Design.
 - https://www.youtube.com/watch?v=OWq74_L5vn0
 - https://www.youtube.com/watch?v=zQ_wmJV8l44
 
-### Diseños obligatorios
+### Required Designs
 
-Diseña en 45 minutos cada uno:
+Design each of the following in 45 minutes:
 
 1. dashboard analytics;
-2. chat en tiempo real;
-3. editor tipo Notion;
+2. real-time chat;
+3. Notion-like editor;
 4. e-commerce catalog;
-5. file uploader masivo.
+5. large-scale file uploader.
 
-Debes cubrir:
+You must cover:
 
 - requirements;
 - data model;
@@ -1377,15 +1377,15 @@ Debes cubrir:
 
 ---
 
-## Semana 51 — 2–8 ago
+## Week 51 — 2–8 Aug
 
-### Tema
+### Topic
 Backend/System Design.
 
 ### Video
 https://www.youtube.com/watch?v=seBhnf9Bpu8
 
-### Diseños obligatorios
+### Required Designs
 
 - notification service;
 - URL shortener;
@@ -1394,29 +1394,29 @@ https://www.youtube.com/watch?v=seBhnf9Bpu8
 - audit log;
 - realtime presence.
 
-### Senior skills
+### Senior Skills
 
-- estimar capacidad;
-- detectar bottlenecks;
-- explicar consistency trade-offs;
-- elegir SQL vs NoSQL;
+- estimate capacity;
+- identify bottlenecks;
+- explain consistency trade-offs;
+- choose SQL vs NoSQL;
 - caching;
 - queues;
 - failure recovery.
 
 ---
 
-## Semana 52 — 9–15 ago 2027
+## Week 52 — 9–15 Aug 2027
 
 # FINAL BOSS
 
-No estudiarás temas nuevos.
+You will not study new topics.
 
-Debes demostrar todo.
+You must demonstrate everything.
 
-## Día 1 — JavaScript
+## Day 1 — JavaScript
 
-90 minutos:
+90 minutes:
 
 - closures;
 - event loop;
@@ -1425,13 +1425,13 @@ Debes demostrar todo.
 - memory;
 - async.
 
-## Día 2 — TypeScript
+## Day 2 — TypeScript
 
-Construir una pequeña librería type-safe sin `any`.
+Build a small type-safe library without `any`.
 
-## Día 3 — React
+## Day 3 — React
 
-Construir una pantalla compleja desde cero incluyendo:
+Build a complex screen from scratch including:
 
 - forms;
 - query caching;
@@ -1439,9 +1439,9 @@ Construir una pantalla compleja desde cero incluyendo:
 - accessibility;
 - error handling.
 
-## Día 4 — Debugging
+## Day 4 — Debugging
 
-Resolver bugs introducidos deliberadamente:
+Fix deliberately introduced bugs:
 
 - stale closure;
 - unnecessary render;
@@ -1449,14 +1449,14 @@ Resolver bugs introducidos deliberadamente:
 - memory leak;
 - bad cache invalidation.
 
-## Día 5 — System Design
+## Day 5 — System Design
 
-45 minutos de frontend system design.  
-45 minutos de backend system design.
+45 minutes of frontend system design.  
+45 minutes of backend system design.
 
-## Día 6 — Code Review
+## Day 6 — Code Review
 
-Tomar un PR de mínimo 500 líneas y hacer review como tech lead:
+Take a PR of at least 500 lines and review it as a tech lead:
 
 - correctness;
 - architecture;
@@ -1465,26 +1465,26 @@ Tomar un PR de mínimo 500 líneas y hacer review como tech lead:
 - testing;
 - maintainability.
 
-## Día 7 — Senior Defense
+## Day 7 — Senior Defense
 
-Graba un video de 30 minutos explicando:
+Record a 30-minute video explaining:
 
-1. arquitectura completa de Atlas;
-2. por qué escogiste cada tecnología;
-3. cuáles fueron tus errores;
-4. qué cambiarías si tuvieras 10x tráfico;
-5. cómo investigarías un incidente de producción;
-6. cómo guiarías a un mid developer para implementar un feature.
+1. the complete Atlas architecture;
+2. why you chose each technology;
+3. what mistakes you made;
+4. what you would change with 10x traffic;
+5. how you would investigate a production incident;
+6. how you would guide a mid-level developer to implement a feature.
 
 ---
 
-# Proyectos secundarios obligatorios
+# Mandatory Secondary Projects
 
-Además de Atlas debes completar estos proyectos sin tutorial paso a paso.
+In addition to Atlas, you must complete these projects without a step-by-step tutorial.
 
-## Proyecto A — UI Library
+## Project A — UI Library
 
-Construye:
+Build:
 
 - Button;
 - Input;
@@ -1497,18 +1497,18 @@ Construye:
 - FormField;
 - Toast.
 
-Requisitos:
+Requirements:
 
 - TypeScript;
 - accessible;
 - keyboard navigation;
 - tests;
 - Storybook opcional;
-- compound components donde tenga sentido.
+- compound components where they make sense.
 
-## Proyecto B — React Query Dashboard
+## Project B — React Query Dashboard
 
-Debe tener:
+It must have:
 
 - pagination;
 - filters;
@@ -1517,9 +1517,9 @@ Debe tener:
 - offline/error states;
 - virtualization.
 
-## Proyecto C — Real-time Chat
+## Project C — Real-time Chat
 
-Debe incluir:
+It must include:
 
 - WebSockets;
 - reconnect;
@@ -1529,36 +1529,36 @@ Debe incluir:
 - message ordering;
 - unread count.
 
-## Proyecto D — File uploader
+## Project D — File Uploader
 
-Debe tener:
+It must have:
 
 - drag/drop;
 - progress;
 - cancel;
 - retry;
 - parallel uploads;
-- chunking conceptual o real;
+- conceptual or real chunking;
 - server validation.
 
-## Proyecto E — SaaS multi-tenant
+## Project E — Multi-Tenant SaaS
 
-Atlas será este proyecto final.
+Atlas will be this final project.
 
 ---
 
-# Algoritmos que un Senior Frontend debería poder resolver
+# Algorithms a Senior Frontend Engineer Should Be Able to Solve
 
-No necesitas convertirte en competitivo de LeetCode, pero sí debes dominar:
+You do not need to become a competitive LeetCode solver, but you must master:
 
 - arrays;
 - hash maps;
 - sets;
 - stacks;
 - queues;
-- linked lists conceptualmente;
+- linked lists conceptually;
 - trees;
-- graphs básicos;
+- basic graphs;
 - BFS;
 - DFS;
 - recursion;
@@ -1568,197 +1568,197 @@ No necesitas convertirte en competitivo de LeetCode, pero sí debes dominar:
 - two pointers;
 - memoization.
 
-## Rutina
+## Routine
 
-Cada viernes:
+Every Friday:
 
-- 1 Easy en <= 15 min;
-- 1 Medium en <= 35 min.
+- 1 Easy in <= 15 min;
+- 1 Medium in <= 35 min.
 
-Objetivo anual:
+Annual target:
 
 - 80 Easy;
 - 60 Medium.
 
 ---
 
-# Preguntas que al terminar debes poder responder sin buscar
+# Questions You Must Be Able to Answer Without Looking Them Up
 
 ## JavaScript
 
-- ¿Qué diferencia hay entre microtasks y tasks?
-- ¿Cómo funciona una closure internamente?
-- ¿Por qué `Promise.then` corre antes que `setTimeout(..., 0)`?
-- ¿Qué causa un memory leak en JS?
-- ¿Qué hace realmente `async/await`?
+- What is the difference between microtasks and tasks?
+- How does a closure work internally?
+- Why does `Promise.then` run before `setTimeout(..., 0)`?
+- What causes a memory leak in JavaScript?
+- What does `async/await` actually do?
 
 ## Browser
 
-- ¿Qué ocurre desde URL hasta pixels?
-- ¿Qué provoca layout thrashing?
-- ¿Qué diferencia paint de composite?
-- ¿Qué es CORS realmente?
-- ¿Cómo funciona HTTP caching?
+- What happens from URL to pixels?
+- What causes layout thrashing?
+- What is the difference between paint and composite?
+- What is CORS really?
+- How does HTTP caching work?
 
 ## React
 
-- ¿Qué dispara un render?
-- ¿Qué diferencia render de commit?
-- ¿Por qué una key incorrecta puede destruir state?
-- ¿Cuándo `useMemo` empeora una app?
-- ¿Por qué ocurre una stale closure?
-- ¿Qué problema resuelve React Compiler?
-- ¿Qué diferencia server state de client state?
-- ¿Qué significa concurrent rendering?
+- What triggers a render?
+- What is the difference between render and commit?
+- Why can an incorrect key destroy state?
+- When does `useMemo` make an app worse?
+- Why does a stale closure happen?
+- What problem does React Compiler solve?
+- What is the difference between server state and client state?
+- What does concurrent rendering mean?
 
 ## Architecture
 
-- ¿Cuándo usar Context, Zustand o Redux?
-- ¿Cómo defines boundaries de features?
-- ¿Qué código debe vivir fuera de React?
-- ¿Cómo evitas acoplamiento entre módulos?
-- ¿Cómo diseñas una API reusable de componentes?
+- When should you use Context, Zustand, or Redux?
+- How do you define feature boundaries?
+- What code should live outside React?
+- How do you avoid coupling between modules?
+- How do you design a reusable component API?
 
 ## Testing
 
-- ¿Qué no deberías mockear?
-- ¿Cuándo usar unit, integration o E2E?
-- ¿Qué causa flaky tests?
-- ¿Por qué probar implementación interna es peligroso?
+- What should you not mock?
+- When should you use unit, integration, or E2E tests?
+- What causes flaky tests?
+- Why is testing internal implementation details dangerous?
 
 ## Backend
 
-- ¿Qué hace idempotente un endpoint?
-- ¿JWT o session cookie?
-- ¿Qué diferencia authentication de authorization?
-- ¿Cómo evitas race conditions?
-- ¿Cómo diseñas retries seguros?
-- ¿Qué es backpressure?
+- What makes an endpoint idempotent?
+- JWT or session cookie?
+- What is the difference between authentication and authorization?
+- How do you avoid race conditions?
+- How do you design safe retries?
+- What is backpressure?
 
 ## Database
 
-- ¿Qué hace un índice?
-- ¿Cuándo un índice puede empeorar una operación?
-- ¿Qué es una transacción?
-- ¿Qué son isolation levels?
-- ¿Qué es N+1?
+- What does an index do?
+- When can an index make an operation worse?
+- What is a transaction?
+- What are isolation levels?
+- What is N+1?
 
 ## Distributed systems
 
-- ¿Cuándo usar Redis?
-- ¿Cuándo usar una queue?
-- ¿Qué significa at-least-once delivery?
-- ¿Por qué un consumer debe ser idempotente?
+- When should you use Redis?
+- When should you use a queue?
+- What does at-least-once delivery mean?
+- Why must a consumer be idempotent?
 
 ## DevOps
 
-- ¿Qué diferencia image de container?
-- ¿Qué hace Kubernetes que Docker no hace?
-- ¿Qué es readiness vs liveness?
-- ¿Cómo haces rollback?
+- What is the difference between an image and a container?
+- What does Kubernetes do that Docker does not?
+- What is readiness vs liveness?
+- How do you perform a rollback?
 
 ---
 
-# Senior communication training
+# Senior Communication Training
 
-Ser Senior no significa únicamente escribir código.
+Being a Senior Engineer is not only about writing code.
 
-Cada semana debes hacer al menos una de estas actividades:
+Every week, you must do at least one of these activities:
 
-- escribir un ADR;
-- explicar un concepto a otra persona;
-- hacer code review;
-- escribir una RFC;
-- documentar un incidente hipotético;
-- explicar trade-offs de una decisión.
+- write an ADR;
+- explain a concept to another person;
+- perform a code review;
+- write an RFC;
+- document a hypothetical incident;
+- explain the trade-offs of a decision.
 
-Cada mes escribe:
+Every month, write:
 
 `ARCHITECTURE_REVIEW_MONTH_XX.md`
 
-con:
+with:
 
-1. decisiones tomadas;
-2. decisiones equivocadas;
-3. deuda técnica;
-4. riesgos;
+1. decisions made;
+2. incorrect decisions;
+3. technical debt;
+4. risks;
 5. performance;
-6. seguridad;
-7. plan de mejora.
+6. security;
+7. improvement plan.
 
 ---
 
-# Rutina de Code Review Senior
+# Senior Code Review Routine
 
-En cada PR revisa:
+For every PR, review:
 
 ## Correctness
 
-- ¿resuelve realmente el requirement?
-- ¿qué edge cases faltan?
+- does it actually satisfy the requirement?
+- what edge cases are missing?
 
 ## Architecture
 
-- ¿está en la capa correcta?
-- ¿aumenta acoplamiento?
-- ¿rompe boundaries?
+- is it in the correct layer?
+- does it increase coupling?
+- does it break boundaries?
 
 ## React
 
-- ¿estado innecesario?
-- ¿effect innecesario?
-- ¿prop drilling justificable?
-- ¿render innecesario?
+- unnecessary state?
+- unnecessary effect?
+- justified prop drilling?
+- unnecessary render?
 
 ## TypeScript
 
-- ¿hay `any`?
-- ¿tipos modelan estados imposibles?
-- ¿puede usarse discriminated union?
+- is there any `any`?
+- do the types model impossible states?
+- can a discriminated union be used?
 
 ## Performance
 
-- ¿network waterfall?
-- ¿bundle impact?
-- ¿render cost?
-- ¿N+1 requests?
+- network waterfall?
+- bundle impact?
+- render cost?
+- N+1 requests?
 
 ## Security
 
-- ¿user input validado?
-- ¿authorization real?
-- ¿secret filtrado?
+- is user input validated?
+- real authorization?
+- leaked secret?
 
 ## Testing
 
-- ¿se prueba comportamiento?
-- ¿faltan failure cases?
+- is behavior being tested?
+- are failure cases missing?
 
 ---
 
-# Métricas del año
+# Yearly Metrics
 
-Al finalizar debes acumular al menos:
+By the end, you must accumulate at least:
 
 - 52 retrospectives;
 - 12 architecture reviews;
 - 20+ ADRs;
 - 150+ algorithm problems;
-- 1 aplicación SaaS seria;
-- 4 proyectos secundarios;
+- 1 serious SaaS application;
+- 4 secondary projects;
 - 100+ tests unit/integration;
 - 20+ E2E tests;
 - 10 performance investigations;
 - 10 system design exercises;
 - 10 backend design exercises;
-- 5 incident postmortems simulados;
-- 5 technical presentations grabadas.
+- 5 simulated incident postmortems;
+- 5 recorded technical presentations.
 
 ---
 
-# Libros recomendados
+# Recommended Books
 
-No son obligatorios de leer completos de una sola vez.
+You are not required to read them completely in one sitting.
 
 ## JavaScript
 
@@ -1779,9 +1779,9 @@ No son obligatorios de leer completos de una sola vez.
 
 ---
 
-# Regla especial: “No sé”
+# Special Rule: “I Don’t Know”
 
-Cada vez que encuentres algo que no puedas explicar, agrégalo a:
+Whenever you encounter something you cannot explain, add it to:
 
 `KNOWLEDGE_GAPS.md`
 
@@ -1803,82 +1803,82 @@ YES / NO
 YES / NO
 ```
 
-No borres los gaps. Debes ver cómo evolucionas.
+Do not delete the gaps. You must be able to see how you evolve.
 
 ---
 
-# Examen mensual
+# Monthly Exam
 
-El último domingo de cada mes:
+On the last Sunday of every month:
 
-## Parte 1 — 30 min
+## Part 1 — 30 min
 
 JavaScript/TypeScript.
 
-## Parte 2 — 45 min
+## Part 2 — 45 min
 
 React/debugging.
 
-## Parte 3 — 45 min
+## Part 3 — 45 min
 
-Construcción de feature.
+Feature implementation.
 
-## Parte 4 — 30 min
+## Part 4 — 30 min
 
 Architecture/System Design.
 
-## Parte 5 — 30 min
+## Part 5 — 30 min
 
 Code Review.
 
-**Score mínimo: 80%.**
+**Minimum score: 80%.**
 
 ---
 
-# Cuándo podrás decir “soy Senior React Developer”
+# When You Can Say “I Am a Senior React Developer”
 
-No cuando termines los videos.
+Not when you finish the videos.
 
-Podrás defenderlo cuando consistentemente puedas:
+You can defend that title when you can consistently:
 
-1. entrar a una codebase desconocida y entenderla;
-2. encontrar bugs difíciles;
-3. explicar por qué sucedieron;
-4. diseñar APIs/componentes mantenibles;
-5. reducir complejidad en vez de aumentarla;
-6. medir performance antes de optimizar;
-7. diseñar testing strategy;
-8. discutir seguridad;
-9. entender backend y base de datos;
-10. diseñar un sistema completo;
-11. hacer buenos code reviews;
-12. enseñar a otros;
-13. detectar riesgos antes de producción;
-14. decir “no” a una mala solución y explicar una mejor;
-15. tomar responsabilidad técnica end-to-end.
+1. enter an unfamiliar codebase and understand it;
+2. find difficult bugs;
+3. explain why they happened;
+4. design maintainable APIs/components;
+5. reduce complexity instead of increasing it;
+6. measure performance before optimizing;
+7. design a testing strategy;
+8. discuss security;
+9. understand backend systems and databases;
+10. design a complete system;
+11. perform strong code reviews;
+12. teach others;
+13. identify risks before production;
+14. say “no” to a bad solution and explain a better one;
+15. take end-to-end technical ownership.
 
 ---
 
-# Regla final
+# Final Rule
 
-Cuando algo funcione, no preguntes solamente:
+When something works, do not only ask:
 
-> “¿Funciona?”
+> “Does it work?”
 
-Pregunta también:
+Also ask:
 
-- ¿por qué funciona?
-- ¿qué pasa si falla la red?
-- ¿qué pasa con 10x tráfico?
-- ¿qué pasa con datos inválidos?
-- ¿qué pasa si el componente renderiza 1,000 veces?
-- ¿qué pasa si el usuario hace doble click?
-- ¿qué pasa si la petición llega dos veces?
-- ¿qué pasa si dos usuarios actualizan el mismo dato?
-- ¿cómo lo mediría?
-- ¿cómo lo probaría?
-- ¿cómo lo observaría en producción?
-- ¿cómo se lo explicaría a un junior?
-- ¿qué trade-off estoy aceptando?
+- why does it work?
+- what happens if the network fails?
+- what happens with 10x traffic?
+- what happens with invalid data?
+- what happens if the component renders 1,000 times?
+- what happens if the user double-clicks?
+- what happens if the request arrives twice?
+- what happens if two users update the same data?
+- how would I measure it?
+- how would I test it?
+- how would I observe it in production?
+- how would I explain it to a junior engineer?
+- what trade-off am I accepting?
 
-Ese cambio de preguntas es el que te convierte en el ingeniero al que los demás consultan.
+That shift in the questions you ask is what turns you into the engineer everyone else consults.
